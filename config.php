@@ -3,6 +3,22 @@
   $ mkdir config
   $ vi config/default.json
   
+  {
+  // Customer module configs
+  "Customer": {
+    "dbConfig": {
+      "host": "localhost",
+      "port": 5984,
+      "dbName": "customers"
+    },
+    "credit": {
+      "initialLimit": 100,
+      // Set low for development
+      "initialDays": 1
+    }
+  }
+}
+    
   $HOST = 'ec2-54-221-207-143.compute-1.amazonaws.com';
   $PORT = '5432';
   $DATABASE_NAME = 'd1583ojbjir9jc';
