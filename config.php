@@ -1,4 +1,8 @@
 <?php
+  $ npm install config
+  $ mkdir config
+  $ vi config/default.json
+  
   $HOST = 'ec2-54-221-207-143.compute-1.amazonaws.com';
   $PORT = '5432';
   $DATABASE_NAME = 'd1583ojbjir9jc';
